@@ -3,6 +3,14 @@
   background: var(--dark);
   height: var(--header-height);
   border: var(--border-solid);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  border: 1px solid black;
 }
 
 a {
