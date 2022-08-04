@@ -8,7 +8,9 @@
   --font-size: 1rem;
   --header-height: 75px;
   --dark: rgb(255, 255, 255);
-  --contrast-text: rgb(0, 0, 0)
+  --medium: rgb(2 125 69);
+  --light: rgba(72, 234, 43, 0.836);
+  --contrast-text: rgb(0, 0, 0);
 
   /* border */
   --border-solid: 1px solid black;
