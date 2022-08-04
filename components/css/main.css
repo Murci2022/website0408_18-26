@@ -6,7 +6,9 @@ body {
 main {
   border: 1px solid black;
   display: flex;
-  justify-content: center;
+  margin-top: 30px;
+
+  justify-content: space-around;
 }
 
 section {
@@ -14,10 +16,14 @@ section {
 }
 
 .container {
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding: 20px;
   border: 1px solid black;
-  align-self: center;
-  justify-self: center;
+  text-align: center;
   width: 80vw;
 }
 
@@ -25,7 +31,15 @@ section {
   main {
     flex-wrap: wrap;
   }
+  .portre {
+    width: 200px;
+  }
+  .container {
+    font-size: 0.8rem;
+  }
 }
-.portre {
-  width: 200px;
+@media (min-width: 450px) {
+  .portre {
+    width: 100%;
+  }
 }
