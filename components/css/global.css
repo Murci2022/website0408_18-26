@@ -3,3 +3,18 @@
   margin: 0;
   padding: 0;
 }
+
+:root {
+  --font-size: 1rem;
+  --header-height: 75px;
+  --backgroundcolor: black;
+  /* border */
+  --border-solid: 1px solid black;
+  --border-solid: 3px solid black;
+  --border-dotted: 1px dotted black;
+  --border-double: 1px double black;
+}
+
+html {
+  font-size: var(--font-size);
+}
