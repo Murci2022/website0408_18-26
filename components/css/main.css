@@ -1,3 +1,9 @@
 body {
   background: var(--dark);
+  height: 100vh;
+}
+
+main {
+  border: 1px solid black;
+  margin: 100px;
 }

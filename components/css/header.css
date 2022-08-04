@@ -1,4 +1,5 @@
 .header {
+  /* position: fixed; */
   width: 100vw;
   background: var(--dark);
   height: var(--header-height);
@@ -7,7 +8,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 20px 0 20px;
+  padding: 5px 25px 0 25px;
 }
 
 .logo_holder {
@@ -15,15 +16,35 @@
 }
 
 .wide_link {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
 }
 
-a {
+.nav_link {
   text-decoration: none;
   color: inherit;
+  margin-left: 20px;
 }
 
 li {
   list-style: none;
+}
+
+/* ------------Hamburger-------------- */
+.hamburger_line {
+  border-top: var(--border-solid);
+  margin-bottom: 5px;
+
+  width: 20px;
+}
+
+@media (min-width: 601px) {
+  .hamburger {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .wide_link {
+    display: none;
+  }
 }
