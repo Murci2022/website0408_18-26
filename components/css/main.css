@@ -6,8 +6,26 @@ body {
 main {
   border: 1px solid black;
   display: flex;
+  justify-content: center;
 }
 
 section {
   border: var(--border-solid);
+}
+
+.container {
+  padding: 20px;
+  border: 1px solid black;
+  align-self: center;
+  justify-self: center;
+  width: 80vw;
+}
+
+@media (max-width: 450px) {
+  main {
+    flex-wrap: wrap;
+  }
+}
+.portre {
+  width: 200px;
 }
