@@ -7,7 +7,7 @@
 :root {
   --font-size: 1rem;
   --header-height: 75px;
-  --backgroundcolor: black;
+  --dark: #282a35;
   /* border */
   --border-solid: 1px solid black;
   --border-solid: 3px solid black;
