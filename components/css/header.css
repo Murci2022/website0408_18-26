@@ -15,6 +15,10 @@
   font-family: "Stick No Bills", sans-serif;
 }
 
+.code_color {
+  color: var(--light);
+}
+
 .wide_link {
   /* border: 1px solid black; */
   display: flex;
