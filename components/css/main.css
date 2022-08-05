@@ -4,6 +4,7 @@ body {
 }
 
 main {
+  margin-top: 40px;
   border: 1px solid black;
   display: flex;
   margin-top: 30px;
@@ -43,5 +44,3 @@ section {
     width: 100%;
   }
 }
-
-<button>Get in Contact with Me</button>
