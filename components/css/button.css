@@ -1,0 +1,23 @@
+.contact_button {
+  background: var(--medium);
+
+  padding: 7px 10px;
+  margin-top: 30px;
+}
+.contact_button:hover {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+.contact_button:active {
+  background: var();
+  color: white;
+  border: 1px solid white;
+}
+
+@media (max-width: 450px) {
+  .container .contact_button {
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+}

@@ -1,0 +1,55 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  background: var(--dark);
+  height: var(--header-height);
+  border: var(--border-solid);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 25px 0 25px;
+}
+
+.logo_holder {
+  font-family: "Stick No Bills", sans-serif;
+}
+
+.code_color {
+  color: var(--light);
+}
+
+.wide_link {
+  /* border: 1px solid black; */
+  display: flex;
+}
+
+.nav_link {
+  text-decoration: none;
+  color: inherit;
+  margin-left: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+/* ------------Hamburger-------------- */
+.hamburger_line {
+  border-top: var(--border-solid);
+  margin-bottom: 5px;
+
+  width: 20px;
+}
+
+@media (min-width: 601px) {
+  .hamburger {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .wide_link {
+    display: none;
+  }
+}
